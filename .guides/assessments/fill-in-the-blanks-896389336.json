@@ -1,0 +1,63 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-896389336",
+	"source": {
+		"name": "flip an image both horizontally and vertically",
+		"showName": false,
+		"instructions": "Fill in the blank",
+		"showValues": false,
+		"text": "To flip an image both horizontally and vertically, you can apply the `ImageOps.flip()` function to the result of the <<<ImageOps.mirror>>>() function applied to the base image.",
+		"distractors": "",
+		"guidance": "By applying the `ImageOps.mirror()` function to the base image and then applying the `ImageOps.flip()` function to the result, you can flip the image both horizontally and vertically, creating a diagonal reflection effect or additional image variations.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [
+				"imageGen.py",
+				"image_name.jpg",
+				"base_img.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "image_name.jpg"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "base_img.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"tokens": {
+			"blank": [
+				"ImageOps.mirror"
+			],
+			"text": [
+				"To flip an image both horizontally and vertically, you can apply the `ImageOps.flip()` function to the result of the ",
+				0,
+				"() function applied to the base image."
+			],
+			"regexPositions": []
+		}
+	}
+}

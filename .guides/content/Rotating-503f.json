@@ -1,0 +1,26 @@
+{
+	"id": "503fbe66-f85f-71a7-8f96-b99009b0a7a2",
+	"title": "Rotating",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "ImageGen2.py",
+			"action": "open"
+		},
+		{
+			"path": "base_img.jpg",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

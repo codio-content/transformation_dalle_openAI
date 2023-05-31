@@ -1,0 +1,18 @@
+{
+	"id": "662aa9ec-9efb-3140-328c-adfe5586da1e",
+	"title": "Flipping",
+	"files": [
+		{
+			"path": "base_img.jpg",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

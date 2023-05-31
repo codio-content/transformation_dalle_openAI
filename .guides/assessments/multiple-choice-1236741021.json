@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1236741021",
+	"source": {
+		"name": "rotate() function in PIL.",
+		"showName": false,
+		"instructions": "**True or False:**\nBy default, images are rotated around their center when using the `rotate()` function in PIL.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2d8515db-fea0-d83f-a855-3a2fce0ee28b",
+				"correct": true,
+				"answer": "True"
+			},
+			{
+				"_id": "f94cd6ef-0a1a-8de4-d92d-56d43574b9c9",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": "True, in PIL the default behavior of the `rotate()` function is to rotate the image around its center. However, a custom center can also be specified if needed for a different effect or composition.\n\n\n\n\n\n\n",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"ImageGen2.py",
+				"base_img.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "ImageGen2.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "base_img.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3225516785",
+	"source": {
+		"name": "Warping",
+		"showName": true,
+		"instructions": "**True or False**: Warping is a spatial transformation that can be used to correct perspective distortion or create artistic effects.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7be70239-1358-7a66-c023-c43181db3cf8",
+				"correct": true,
+				"answer": "True"
+			},
+			{
+				"_id": "89d0f53a-8f21-efff-d298-4f18ac6f58d9",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": "True. Warping is indeed a spatial transformation that involves changing the perspective or shape of an image by applying a geometric transformation. This can be used for correcting perspective distortion or creating artistic effects.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

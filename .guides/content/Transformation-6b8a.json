@@ -1,0 +1,18 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"id": "6b8a09ec-f62e-fdc0-a1cf-55f74f49e156",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Transformation",
+	"type": "page"
+}

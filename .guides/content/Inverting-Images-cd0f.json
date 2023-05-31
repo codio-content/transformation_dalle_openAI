@@ -1,0 +1,26 @@
+{
+	"id": "cd0f6d2b-d6a3-89bf-6e9b-b6e745739da3",
+	"title": "Inverting Images",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "Img_inverting.py",
+			"action": "open"
+		},
+		{
+			"path": "base_img.jpg",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "3-cell"
+}

@@ -1,0 +1,68 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-343852027",
+	"source": {
+		"name": "invert the colors of an image ",
+		"showName": false,
+		"instructions": "To invert the colors of an image using the Python Imaging Library (PIL), you can use the `ImageOps.______()` function.\n\n",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "eb5e82ab-8caa-78b4-45f6-eaa9ba80fe42",
+				"correct": true,
+				"answer": "invert"
+			},
+			{
+				"_id": "7fdc88d7-65f0-bb07-d47e-0f9b6d811e52",
+				"correct": false,
+				"answer": "rotate"
+			},
+			{
+				"_id": "00a5d925-7878-cc74-8a0b-8f6a3af99b67",
+				"correct": false,
+				"answer": "contrac"
+			},
+			{
+				"_id": "3de4de93-67f0-8906-9162-302852899583",
+				"correct": false,
+				"answer": "rotation"
+			}
+		],
+		"guidance": "The `ImageOps.invert()` function is used to invert the colors of an image in PIL. `ImageOps.invert(img)` creates a new image which is an inversion of the original image — that is, for each color channel, it reverses the intensity of the color.\n\n",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"Img_inverting.py",
+				"base_img.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "Img_inverting.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "base_img.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
