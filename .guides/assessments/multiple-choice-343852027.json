@@ -4,7 +4,7 @@
 	"source": {
 		"name": "invert the colors of an image ",
 		"showName": false,
-		"instructions": "To invert the colors of an image using the Python Imaging Library (PIL), you can use the `ImageOps.______()` function.\n\n",
+		"instructions": "To make a negative of an image image using the Python Imaging Library (PIL), you can use the `ImageOps.______()` function.\n\n",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -21,15 +21,15 @@
 			{
 				"_id": "00a5d925-7878-cc74-8a0b-8f6a3af99b67",
 				"correct": false,
-				"answer": "contrac"
+				"answer": "contrast"
 			},
 			{
 				"_id": "3de4de93-67f0-8906-9162-302852899583",
 				"correct": false,
-				"answer": "rotation"
+				"answer": "grayscale"
 			}
 		],
-		"guidance": "The `ImageOps.invert()` function is used to invert the colors of an image in PIL. `ImageOps.invert(img)` creates a new image which is an inversion of the original image — that is, for each color channel, it reverses the intensity of the color.\n\n",
+		"guidance": "The `ImageOps.invert()` function is used to invert the colors of an image in PIL. The function subtracts the value of each pixel from the maximum value possible for that channel. This operation effectively flips the colors, making dark areas light and light areas dark. For example, a white pixel (RGB value of (255, 255, 255)) would become black (RGB value of (0, 0, 0)), and a black pixel (RGB value of (0, 0, 0)) would become white (RGB value of (255, 255, 255)). The ImageOps.invert() function can be a useful tool for creating negative versions of images or for creating artistic effects by inverting the color scheme.\n\n",
 		"showGuidanceAfterResponseOption": {
 			"type": "Attempts",
 			"passedFrom": 2

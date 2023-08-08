@@ -1,0 +1,39 @@
+{
+	"type": "test",
+	"taskId": "test-1757594406",
+	"source": {
+		"name": "Code",
+		"showName": true,
+		"instructions": "When ready to submit please click the button below.",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\".guides/secure/test.py\"],\"maxPoints\":20,\"executable\":\"python3\",\"pythonwd\":\"\",\"partialPoints\":false}",
+		"timeoutSeconds": 300,
+		"guidance": "```python\n# Generate the base image\ndef generate_base_image(prompt):\n    response = openai.Image.create(\n        prompt=prompt,\n        n=1,\n        size=\"512x512\"\n    )\n    return response['data'][0]['url']\n\ncool_prompt= \"Reunion of man, team, squad with katanas, ninja ,background forest , abstract, full hd render + 3d octane render +4k UHD + immense detail + dramatic lighting + well lit + black, purple, blue, pink, cerulean, teal, metallic colours, + fine details + octane render + 8k\"\nimage_url = generate_base_image(cool_prompt)\n\nimg_data = requests.get(image_url).content\nwith open('cool.png', 'wb') as handler:\n    handler.write(img_data)\n\n#Saving our base image\nbase_image=Image.open('cool.png')\n# Rotate the base image by 45 degrees\nrotated_image_45 = base_image.rotate(45)\n\n# Save the rotated image to a file\nrotated_image_45.save('rotated_45_cool.png')\n\nnew_base= Image.open('rotated_45_cool.png')\n\n# Invert the colors of the base image\ninverted_image = ImageOps.invert(new_base)\n\n# Save the inverted image to a file\ninverted_image.save('final_cool.png')\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"exerc.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "exerc.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

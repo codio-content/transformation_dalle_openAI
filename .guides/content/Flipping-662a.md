@@ -1,4 +1,4 @@
-Flipping an image involves mirroring it either horizontally or vertically. This can be useful for creating reflections, correcting image orientation, or generating additional variations of a generated image.  we will explore horizontal and vertical flipping using the Python Imaging Library (PIL) and the DALL-E 2 API.
+Flipping an image involves mirroring it either horizontally or vertically. This can be useful for creating reflections, correcting image orientation, or generating additional variations of a generated image. We will explore horizontal and vertical flipping using the Python Imaging Library (PIL) and the DALL-E 2 API.
 
 
 ### Horizontal Flipping
@@ -31,7 +31,7 @@ flipped_vertical_image = ImageOps.flip(base_image)
 flipped_vertical_image.save('flipped_vertical.jpg')
 ```
 {Try it!}(python3 imageGen.py 5)
-[Click here to refresh your vertical  image](close_file flipped_vertical.jpg panel=1; open_file flipped_vertical.jpg panel=1)
+[Click here to refresh your Vertical flipped image](close_file flipped_vertical.jpg panel=1; open_file flipped_vertical.jpg panel=1)
 
 ### Combining Flips
 
@@ -45,7 +45,7 @@ flipped_both_image = ImageOps.mirror(ImageOps.flip(base_image))
 flipped_both_image.save('flipped_both.jpg')
 ```
 {Try it!}(python3 imageGen.py 6)
-[Click here to refresh your vertical  image](close_file flipped_both.jpg panel=1; open_file flipped_both.jpg panel=1)
+[Click here to refresh your both flipped image](close_file flipped_both.jpg panel=1; open_file flipped_both.jpg panel=1)
 
 
 {Check It!|assessment}(fill-in-the-blanks-896389336)

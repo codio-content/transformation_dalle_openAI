@@ -1,7 +1,7 @@
 
 ### Image Generation
 ---
-In order to not have to keep copying and pasting our result in, we are going to save the image we are going to interact with as a file in our Codio box. 
+In order to not have to keep copying and pasting our result in, we are going to save the image so that we can interact with as a file in our Codio box. 
 
 The first thing we are going to do is get our base image. Previously we used very simple prompts to generate simple images. The simple images were very useful to see the color transformations. Now that we are going to work with more spacial transformations we can make some cooler pictures and still easily visualize the changes. Let's start with getting our library and image generation function
 
@@ -43,7 +43,7 @@ with open('base_img.jpg', 'wb') as handler:
 In our case the following prompt generated this pretty cool image. 
 ![base_Img](base_Img0.jpg)
 
-**If** you want feel free to generate other images until you have something you like. **If** you want to use the picture above. You can run the following to get the image above. Additional images will be provided below, if you want them simply switch the corresponding source file. Example, `base_img9.jpg` or `base_img8.jpg` ...
+**If** you want feel free to generate other images until you have something you like. **If** you want to use the picture above, you can run the following code. Additional images will be provided below, if you want them simply switch the corresponding source file. Example, `base_img9.jpg` or `base_img8.jpg` ... Please remember to comment out the code to generate a new image.
 
 ```python
 import shutil
